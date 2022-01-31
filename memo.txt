@@ -1,0 +1,40 @@
+sudo pip3 install luma.oled
+sudo pip3 install serial
+pip3 install --upgrade pip
+pip3 install --upgrade pip3
+pip install -U pip
+apt install -y libssl-dev
+
+# Python-3.9.9
+cd Downloads/
+cd Python-3.9.9
+vi Modules/Setup
+./configure
+make
+sudo make install
+
+pip3 install Pillow
+python3 draw_text.py 
+sudo pip3 uninstall PIL
+sudo apt-get install libjpeg-dev
+sudo apt-get install libfreetype6-dev
+sudo apt-get install zlib1g-dev
+sudo apt-get install libpng12-dev
+sudo pip3 install PIL --upgrade
+/usr/local/bin/python3.9 -m pip3 install --upgrade pip3
+/usr/local/bin/python3.9 -m pip3 install --upgrade pip
+/usr/local/bin/python3.9 -m pip insta
+
+sudo apt-get install python-imaging
+sudo i2cdetect -y 1
+
+sudo apt-get install libfreetype6
+sudo apt-get install libfreetype6-dev
+sudo pip3 uninstall Pillow
+sudo pip3 install Pillow
+
+importError: The _imagingft C module is not installed
+
+
+
+
